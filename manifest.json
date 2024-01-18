@@ -1,0 +1,15 @@
+{
+    "name": "Autos",
+    "version": "1",
+    "description": "",
+    "manifest_version": 3,
+    "author": "Seba",
+  	"permissions":[],
+
+    "content_scripts": [
+      {
+        "matches": ["..."],
+        "js": ["content_script.js"]
+      }
+    ]
+}
